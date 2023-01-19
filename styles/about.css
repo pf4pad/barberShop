@@ -1,0 +1,63 @@
+.about {
+  padding: 62px 0;
+}
+
+
+.about__title {
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  max-width: 700px;
+  margin: 0 0 24px;
+}
+
+.about__decription {
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 0 72px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #BFBDB2;
+}
+
+.about__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 384px);
+  gap: 24px 32px;
+}
+
+.about__item {
+  padding: 6px 6px 6px 96px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 80px;
+}
+
+.about__item_top {
+  background-image: url('../images/top.svg');
+
+}
+
+.about__item_master {
+  background-image: url('../images/master.svg');
+}
+
+.about__item_garanty {
+  background-image: url('../images/garanty.svg');
+}
+
+.about__item-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+
+.about__item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #BFBDB2;
+  margin: 0;
+}

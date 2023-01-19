@@ -1,0 +1,58 @@
+.reserve {
+  padding: 64px 0 124px;
+}
+
+
+.reserve__title {
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 0 24px;
+}
+
+.reserve__list {
+  padding-left: 24px;
+  margin: 0 0 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.reserve__form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-bottom: 40px;
+}
+
+.reserve__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reserve__legend {
+  flex-basis: 100%;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  margin: 0 0 24px;
+}
+
+.reserve__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.reserve__fieldset_sub {
+  flex-basis: 100%;
+  margin-bottom: 24px;
+}
+
+.reserve__btn {}

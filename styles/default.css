@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'),
+    url('../fonts/raleway-v28-latin-regular.woff') format('woff'),
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  background: #241D1C;
+  color: #F6F3E3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1312px;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+
+
+
+.price {}
+
+.price__title {}
+
+.price__tagline {}
+
+.price__wrapper-content {}
+
+.price__content {}
+
+.price__list {}
+
+.price__item {}
+
+.price__item-title {}
+
+.price__item-count {}
+
+.price__link {}
+
+.about {}
+
+.about__title {}
+
+.about__decription {}
+
+.about__list {}
+
+.about__item {}
+
+.about__item-title {}
+
+.about__item-description {}
+
+.reserve {}
+
+.reserve__title {}
+
+.reserve__list {}
+
+.reserve__item {}
+
+.reserve__form {}
+
+.reserve__form-container {}
+
+.reserve__fieldset {}
+
+.reserve__legend {}
+
+.radio {}
+
+.radio__input {}
+
+.radio__label {}
+
+.reserve__fieldset {}
+
+.reserve__fieldset_sub {}
+
+.reserve__btn {}
+
+.footer {}
+
+.footer__wrapper {}
+
+.footer__logo {}
+
+.footer__navigation {}
+
+.footer__list {}
+
+.footer__item {}
+
+.foote__info {}
+
+.copyright {}
