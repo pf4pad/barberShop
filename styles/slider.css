@@ -4,9 +4,6 @@
 
 }
 
-.slider__container {
-  /* display: none; */
-}
 
 .slider__list {
   display: flex;
@@ -21,6 +18,7 @@
 }
 
 .slider__item_active {
+
   max-width: 50%;
 }
 
@@ -106,3 +104,4 @@
   .slider__arrow_right {
     right: 0;
   }
+}

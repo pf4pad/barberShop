@@ -2,14 +2,18 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
+  src: url('../fonts/raleway-v28-latin_cyrillic-regular.eot');
   src: local(''),
-    url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'),
-    url('../fonts/raleway-v28-latin-regular.woff') format('woff'),
-
+    url('../fonts/raleway-v28-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-v28-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/raleway-v28-latin_cyrillic-regular.woff') format('woff'),
+    url('../fonts/raleway-v28-latin_cyrillic-regular.ttf') format('truetype'),
+    url('../fonts/raleway-v28-latin_cyrillic-regular.svg#Raleway') format('svg');
 }
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -20,13 +24,14 @@ html {
 
 body {
   min-width: 320px;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   background: #241D1C;
   color: #F6F3E3;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 img {
@@ -47,6 +52,7 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .visually-hidden {
@@ -65,84 +71,3 @@ button {
     padding: 0 24px;
   }
 }
-
-
-
-
-.price {}
-
-.price__title {}
-
-.price__tagline {}
-
-.price__wrapper-content {}
-
-.price__content {}
-
-.price__list {}
-
-.price__item {}
-
-.price__item-title {}
-
-.price__item-count {}
-
-.price__link {}
-
-.about {}
-
-.about__title {}
-
-.about__decription {}
-
-.about__list {}
-
-.about__item {}
-
-.about__item-title {}
-
-.about__item-description {}
-
-.reserve {}
-
-.reserve__title {}
-
-.reserve__list {}
-
-.reserve__item {}
-
-.reserve__form {}
-
-.reserve__form-container {}
-
-.reserve__fieldset {}
-
-.reserve__legend {}
-
-.radio {}
-
-.radio__input {}
-
-.radio__label {}
-
-.reserve__fieldset {}
-
-.reserve__fieldset_sub {}
-
-.reserve__btn {}
-
-.footer {}
-
-.footer__wrapper {}
-
-.footer__logo {}
-
-.footer__navigation {}
-
-.footer__list {}
-
-.footer__item {}
-
-.foote__info {}
-
-.copyright {}

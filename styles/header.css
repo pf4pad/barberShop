@@ -18,11 +18,6 @@
   margin-right: 54px;
 }
 
-.navigation__list {
-  display: flex;
-  align-items: center;
-  gap: 33px;
-}
 
 .main-link {
   display: inline-block;
@@ -55,6 +50,11 @@
 }
 
 @media (max-width: 600px) {
+  .header__container {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
   .main-link {
     padding: 10px 24px;
     font-size: 12px;
